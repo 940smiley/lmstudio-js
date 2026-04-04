@@ -11,3 +11,4 @@ export async function readFileAsBase64(path: string): Promise<
 > {
   return { success: true, base64: await readFile(path, "base64") };
 }
+

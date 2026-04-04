@@ -67,3 +67,4 @@ test("buffered event should not be lost if unsubscribes during emit", async () =
   expect(listener2).toHaveBeenCalledTimes(1);
   expect(listener2).toHaveBeenCalledWith(2);
 });
+

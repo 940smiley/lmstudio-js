@@ -89,3 +89,4 @@ export class Event<TData> extends Subscribable<TData> {
     return batchedEvent;
   }
 }
+

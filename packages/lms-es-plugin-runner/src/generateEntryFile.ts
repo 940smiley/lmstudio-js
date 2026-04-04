@@ -92,3 +92,4 @@ interface GenerateEntryFileOpts {}
 export function generateEntryFile(_opts: GenerateEntryFileOpts) {
   return template;
 }
+

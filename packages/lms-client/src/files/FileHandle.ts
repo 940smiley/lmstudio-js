@@ -50,3 +50,4 @@ export class FileHandle {
     return this.type === "image";
   }
 }
+

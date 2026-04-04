@@ -39,3 +39,4 @@ describe.skip("SimpleLogger", () => {
     expect(mockLogger.info).toHaveBeenCalledWith("[test]", "info message");
   });
 });
+

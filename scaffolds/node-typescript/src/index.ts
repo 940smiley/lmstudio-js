@@ -54,3 +54,4 @@ async function predictWithAnyModel() {
   const { stats } = await prediction.result();
   console.log("\n\nPrediction Stats:", stats);
 }
+

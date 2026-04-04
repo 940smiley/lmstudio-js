@@ -28,3 +28,4 @@ export class HandledEvent<TData> extends Subscribable<TData> {
     await Promise.all(promises);
   }
 }
+

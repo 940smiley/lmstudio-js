@@ -60,3 +60,4 @@ export class AuthenticatedIpcServer<TContext extends Context> extends IpcServer<
     });
   }
 }
+

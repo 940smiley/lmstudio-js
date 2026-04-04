@@ -16,3 +16,4 @@ export function maybeFalseNumberToCheckboxNumeric(
   }
   return { checked: true, value: maybeFalseNumber };
 }
+

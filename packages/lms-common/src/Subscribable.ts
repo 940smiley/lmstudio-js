@@ -73,3 +73,4 @@ export abstract class Subscribable<TData> {
     }, outputEqualsPredicate) as any;
   }
 }
+

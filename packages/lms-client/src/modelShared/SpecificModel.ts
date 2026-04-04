@@ -17,3 +17,4 @@ export interface SpecificModel<
   readonly path: string;
   unload(): Promise<void>;
 }
+

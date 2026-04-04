@@ -22,3 +22,4 @@ export function changeErrorStackInPlace(error: Error, newStack: string) {
     newStack
   ).trimEnd();
 }
+

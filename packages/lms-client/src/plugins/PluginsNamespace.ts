@@ -632,3 +632,4 @@ export class PluginsNamespace {
     await this.port.callRpc("pluginInitCompleted", undefined, { stack });
   }
 }
+

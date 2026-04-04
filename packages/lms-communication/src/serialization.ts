@@ -41,3 +41,4 @@ export function deserialize<TData>(type: SerializationType, value: SerializedOpa
 }
 
 export const serializedOpaqueSchema = z.any() as ZodSchema<SerializedOpaque<any>>;
+

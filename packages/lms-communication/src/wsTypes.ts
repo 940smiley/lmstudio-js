@@ -6,3 +6,4 @@ export interface WsMessageEvent {
   type: string;
   target: WebSocket;
 }
+

@@ -19,3 +19,4 @@ if (lmsKey !== null) {
 }
 
 writeFileSync(join(__dirname, "dist", "index.js"), replaced, "utf-8");
+

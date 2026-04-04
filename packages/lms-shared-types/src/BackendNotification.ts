@@ -13,3 +13,4 @@ export const backendNotificationSchema = z.object({
   description: z.string().optional(),
   noAutoDismiss: z.boolean().optional(),
 }) as ZodSchema<BackendNotification>;
+

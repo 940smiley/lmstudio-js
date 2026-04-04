@@ -19,3 +19,4 @@ export const pluginManifestSchema = z.object({
   runner: pluginRunnerTypeSchema,
   ...artifactManifestBaseSchema.shape,
 });
+

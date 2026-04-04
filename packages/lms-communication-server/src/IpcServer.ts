@@ -30,3 +30,4 @@ export abstract class IpcServer<TContext extends Context> {
   }
   protected abstract onConnection(event: IpcMainEvent, ...args: Array<unknown>): Promise<void>;
 }
+

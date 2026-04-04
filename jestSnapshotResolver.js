@@ -12,3 +12,4 @@ module.exports = {
 
   testPathForConsistencyCheck: path.resolve("consistency_check", "__tests__", "example.test.js"),
 };
+

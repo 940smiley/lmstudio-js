@@ -10,3 +10,4 @@ for (const name of names) {
   }
 }
 writeFileSync("scaffolds.json", JSON.stringify(output, null, 2));
+

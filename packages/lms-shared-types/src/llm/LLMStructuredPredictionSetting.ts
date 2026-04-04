@@ -70,3 +70,4 @@ export const llmStructuredPredictionSettingSchema = z.object({
   jsonSchema: jsonSerializableSchema.optional(),
   gbnfGrammar: z.string().optional(),
 });
+

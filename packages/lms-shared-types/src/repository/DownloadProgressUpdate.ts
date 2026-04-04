@@ -13,3 +13,4 @@ export const downloadProgressUpdateSchema = z.object({
   totalBytes: z.number().int(),
   speedBytesPerSecond: z.number(),
 }) as ZodSchema<DownloadProgressUpdate>;
+

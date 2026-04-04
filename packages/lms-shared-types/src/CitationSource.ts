@@ -17,3 +17,4 @@ export const citationSourceSchema = z.object({
   pageNumber: z.union([z.number().int(), z.tuple([z.number().int(), z.number().int()])]).optional(),
   lineNumber: z.union([z.number().int(), z.tuple([z.number().int(), z.number().int()])]).optional(),
 }) as z.Schema<CitationSource>;
+

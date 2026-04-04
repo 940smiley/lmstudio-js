@@ -129,3 +129,4 @@ export const virtualModelDefinitionSchema: ZodSchema<VirtualModelDefinition> = z
     .optional(),
   metadataOverrides: virtualModelDefinitionMetadataOverridesSchema.optional(),
 });
+

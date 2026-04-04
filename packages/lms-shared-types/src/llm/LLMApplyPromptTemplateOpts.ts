@@ -22,3 +22,4 @@ export const llmApplyPromptTemplateOptsSchema = z.object({
   omitBosToken: z.boolean().optional(),
   omitEosToken: z.boolean().optional(),
 });
+

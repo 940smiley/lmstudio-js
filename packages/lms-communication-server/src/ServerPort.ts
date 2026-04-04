@@ -103,7 +103,7 @@ export class ServerPort<
     }
     this.logger.warnText`
       Produced communication warning: ${warning}
-      
+
       This is usually caused by communication protocol incompatibility. Please make sure you are
       using the up-to-date versions of the SDK and LM Studio.
     `;
@@ -585,7 +585,7 @@ export class ServerPort<
   ) {
     this.logger.warnText`
       Received communication warning from the client: ${message.warning}
-      
+
       This is usually caused by communication protocol incompatibility. Please make sure you are
       using the up-to-date versions of the SDK and LM Studio.
 
@@ -660,3 +660,4 @@ export class ServerPort<
     this.emitCloseEvent();
   };
 }
+

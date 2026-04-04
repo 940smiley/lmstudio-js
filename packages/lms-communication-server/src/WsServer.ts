@@ -31,3 +31,4 @@ export abstract class WsServer<TContext> {
   }
   protected abstract onConnection(ws: WebSocket): void;
 }
+

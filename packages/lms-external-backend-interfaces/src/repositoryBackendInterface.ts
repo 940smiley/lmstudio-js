@@ -112,3 +112,4 @@ export function createRepositoryBackendInterface() {
 
 export type RepositoryPort = InferClientPort<typeof createRepositoryBackendInterface>;
 export type RepositoryBackendInterface = ReturnType<typeof createRepositoryBackendInterface>;
+

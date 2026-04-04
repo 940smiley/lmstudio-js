@@ -22,3 +22,4 @@ export function createDiagnosticsBackendInterface() {
 
 export type DiagnosticsPort = InferClientPort<typeof createDiagnosticsBackendInterface>;
 export type DiagnosticsBackendInterface = ReturnType<typeof createDiagnosticsBackendInterface>;
+

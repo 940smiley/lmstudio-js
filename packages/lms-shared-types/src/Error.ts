@@ -109,3 +109,4 @@ export function recreateSerializedError(error: SerializedLMSExtendedError) {
 export function extractDisplayData(error: Error): ErrorDisplayData | undefined {
   return (error as any).displayData;
 }
+

@@ -56,3 +56,4 @@ export class GenericServerTransport extends ServerTransport {
     this.sendMessage(message);
   }
 }
+

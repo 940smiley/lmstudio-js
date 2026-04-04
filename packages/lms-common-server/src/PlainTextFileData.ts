@@ -18,3 +18,4 @@ export class PlainTextFileData extends FileData<string> {
     );
   }
 }
+

@@ -16,3 +16,4 @@ describe("toJSONSafeNumber", () => {
     expect(toJSONSafeNumber(0)).toBe(0);
   });
 });
+

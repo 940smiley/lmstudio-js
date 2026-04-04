@@ -136,3 +136,4 @@ export function flattenSignalOfWritableSignal<TInner>(
   });
   return [signal, setter] as const;
 }
+

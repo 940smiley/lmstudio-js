@@ -11,3 +11,4 @@ export const presetManifestSchema = z.object({
   type: z.literal("preset"),
   ...artifactManifestBaseSchema.shape,
 });
+

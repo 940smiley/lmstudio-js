@@ -9,3 +9,4 @@ export function toJSONSafeNumber(value: number | undefined): number | undefined 
     return value;
   }
 }
+

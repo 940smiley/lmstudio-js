@@ -162,3 +162,4 @@ describe("makeSetterWithPatches", () => {
     expect(update).toHaveBeenCalledTimes(1);
   });
 });
+

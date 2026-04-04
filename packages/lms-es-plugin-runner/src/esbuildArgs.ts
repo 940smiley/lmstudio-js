@@ -28,3 +28,4 @@ export function createEsBuildArgs({ entryPath, outPath, watch, production }: EsB
   }
   return args;
 }
+

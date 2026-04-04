@@ -35,3 +35,4 @@ export interface PluginContext {
    */
   withSimplerGenerator(simpleGenerator: SimpleGenerator): PluginContext;
 }
+

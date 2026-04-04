@@ -20,3 +20,4 @@ export const fileTypeSchema = z.enum([
   "text/other",
   "unknown",
 ]);
+

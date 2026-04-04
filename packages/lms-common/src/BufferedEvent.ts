@@ -72,3 +72,4 @@ export class BufferedEvent<TData> extends Subscribable<TData> {
     return event;
   }
 }
+

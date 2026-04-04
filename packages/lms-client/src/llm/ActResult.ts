@@ -30,3 +30,4 @@ export class ActResult {
     public readonly totalExecutionTimeSeconds: number,
   ) {}
 }
+

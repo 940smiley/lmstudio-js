@@ -7,3 +7,4 @@
 export type OmitStatics<T, S extends string> = T extends { new (...args: infer A): infer R }
   ? { new (...args: A): R } & Omit<T, S>
   : Omit<T, S>;
+

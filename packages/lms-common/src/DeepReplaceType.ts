@@ -26,3 +26,4 @@ export type DeepReplaceType2<TInput, TSearch1, TReplace1, TSearch2, TReplace2> =
               >;
             }
           : TInput;
+

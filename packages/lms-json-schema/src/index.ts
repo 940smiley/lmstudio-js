@@ -112,3 +112,4 @@ const jsonSchema = zodToJsonSchema(pseudoEntry, { definitions: Object.fromEntrie
 const outDir = join(__dirname, "..", "schemas");
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "lms.json"), JSON.stringify(jsonSchema, null, 2));
+

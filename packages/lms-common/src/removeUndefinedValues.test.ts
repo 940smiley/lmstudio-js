@@ -35,3 +35,4 @@ describe("removeUndefinedValues function", () => {
     expect(Object.prototype.hasOwnProperty.call(result, "d")).toBe(false);
   });
 });
+

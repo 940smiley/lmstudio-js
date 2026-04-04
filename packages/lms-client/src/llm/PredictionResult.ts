@@ -99,3 +99,4 @@ export class StructuredPredictionResult<TStructuredOutputType = unknown> extends
     );
   }
 }
+

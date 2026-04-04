@@ -19,3 +19,4 @@ export abstract class Authenticator<TContext extends Context> {
     contextCreator: ContextCreator<TContext>;
   }>;
 }
+

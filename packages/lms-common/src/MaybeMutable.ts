@@ -78,3 +78,4 @@ export interface MaybeMutableInternal<Data> extends MaybeMutable<Data> {
 export function accessMaybeMutableInternals<TData>(maybeMutable: MaybeMutable<TData>) {
   return maybeMutable as MaybeMutableInternal<TData>;
 }
+

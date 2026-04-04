@@ -1462,3 +1462,4 @@ export type ConfigFieldFilter<TKVFieldValueTypeLibraryMap extends KVVirtualField
 
 export type InferConfigFieldFilter<TKVConfigSchematics extends KVConfigSchematics<any, any>> =
   TKVConfigSchematics extends KVConfigSchematics<infer RMap, any> ? ConfigFieldFilter<RMap> : never;
+

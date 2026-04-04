@@ -56,3 +56,4 @@ export class GenericClientTransport extends ClientTransport {
     this.sendMessage(message);
   }
 }
+

@@ -245,3 +245,4 @@ export class RepositoryNamespace {
     await promise;
   }
 }
+

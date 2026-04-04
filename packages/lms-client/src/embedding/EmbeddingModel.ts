@@ -64,3 +64,4 @@ export class EmbeddingModel
     return info;
   }
 }
+

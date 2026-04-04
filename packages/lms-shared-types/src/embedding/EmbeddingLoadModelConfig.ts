@@ -21,3 +21,4 @@ export const embeddingLoadModelConfigSchema = z.object({
   keepModelInMemory: z.boolean().optional(),
   tryMmap: z.boolean().optional(),
 });
+

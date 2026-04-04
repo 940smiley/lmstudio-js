@@ -54,3 +54,4 @@ export async function ensureHeavyTestsEnvironment(client?: LMStudioClient) {
 test("Ensure heavy tests environment", async () => {
   await ensureHeavyTestsEnvironment();
 });
+

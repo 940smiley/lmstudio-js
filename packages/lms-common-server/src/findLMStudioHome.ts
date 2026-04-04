@@ -32,3 +32,4 @@ export function findLMStudioHome() {
   writeFileSync(pointerFilePath, lmstudioHome, "utf-8");
   return lmstudioHome;
 }
+

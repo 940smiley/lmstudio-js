@@ -25,3 +25,4 @@ export interface InternalRetrievalResult {
 export const internalRetrievalResultSchema = z.object({
   entries: z.array(internalRetrievalResultEntrySchema),
 });
+

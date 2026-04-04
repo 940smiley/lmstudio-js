@@ -209,3 +209,4 @@ export async function installCliDarwinOrLinux(path: string, { skipConfirmation }
     ),
   );
 }
+

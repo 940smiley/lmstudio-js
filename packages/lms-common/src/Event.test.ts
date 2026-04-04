@@ -61,3 +61,4 @@ test("events emitted in subscribe should be emitted in next microtask", async ()
   expect(listener).toHaveBeenCalledTimes(2);
   expect(listener).toHaveBeenCalledWith(2);
 });
+

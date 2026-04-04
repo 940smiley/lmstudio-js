@@ -11,3 +11,4 @@ export interface RetrievalResultEntry {
   score: number;
   source: FileHandle;
 }
+

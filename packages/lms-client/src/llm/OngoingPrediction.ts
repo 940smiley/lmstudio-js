@@ -180,3 +180,4 @@ export class OngoingPrediction<TStructuredOutputType = unknown> extends Streamab
     this.onCancel();
   }
 }
+

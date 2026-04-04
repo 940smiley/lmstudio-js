@@ -93,3 +93,4 @@ export const modelSearchOptsSchema = z.object({
   limit: z.number().int().positive().max(25).optional(),
   compatibilityTypes: z.array(modelCompatibilityTypeSchema).optional(),
 }) as ZodSchema<ModelSearchOpts>;
+

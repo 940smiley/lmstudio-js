@@ -25,3 +25,4 @@ module.exports = {
   ],
   external: ["process", "chalk", "zod", "zod-to-json-schema", "@lmstudio/lms-isomorphic"],
 };
+

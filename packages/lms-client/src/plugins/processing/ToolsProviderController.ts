@@ -27,3 +27,4 @@ export class ToolsProviderController {
     ).parse(this.pluginConfig);
   }
 }
+

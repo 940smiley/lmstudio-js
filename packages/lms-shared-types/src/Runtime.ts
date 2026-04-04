@@ -27,3 +27,4 @@ export const runtimeSchema = z.object({
   name: z.string(),
   accelerators: z.array(acceleratorSchema),
 });
+

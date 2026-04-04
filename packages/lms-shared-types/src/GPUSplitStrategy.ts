@@ -61,3 +61,4 @@ export function convertGPUSettingToGPUSplitConfig(gpuSetting?: GPUSetting): GPUS
     customRatio: [],
   };
 }
+

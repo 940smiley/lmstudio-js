@@ -90,7 +90,8 @@ test("stress Test", () => {
       is
       a
       test.
-        
+
     Number: ${1234}
   `).toBe("Hello, my name is John Doe.\n\n  This is a test.\n\nNumber: 1234");
 });
+

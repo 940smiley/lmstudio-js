@@ -8,3 +8,4 @@ import { type GeneratorController } from "./ProcessingController.js";
  */
 export type Generator = (ctl: GeneratorController) => Promise<void>;
 export const generatorSchema = z.function();
+

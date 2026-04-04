@@ -31,3 +31,4 @@ export function getHostedEnv(): LMStudioHostedEnv | null {
   }
   return null;
 }
+

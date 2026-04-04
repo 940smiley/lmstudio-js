@@ -11,3 +11,4 @@ export const modelDomainTypeSchema = z.enum([
   "transcription",
   "tts",
 ]);
+

@@ -70,3 +70,4 @@ export const modelInstanceInfoBaseSchema = modelInfoBaseSchema.extend({
   identifier: z.string(),
   instanceReference: z.string(),
 });
+

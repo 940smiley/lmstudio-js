@@ -19,3 +19,4 @@ export const colorPalette = z.enum([
   "default",
 ]);
 export const colorPaletteSchema = colorPalette;
+

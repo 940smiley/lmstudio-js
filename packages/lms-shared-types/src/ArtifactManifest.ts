@@ -9,3 +9,4 @@ export const artifactManifestSchema = z.discriminatedUnion("type", [
   presetManifestSchema,
   modelManifestSchema,
 ]) as ZodSchema<ArtifactManifest>;
+

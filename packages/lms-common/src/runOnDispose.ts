@@ -3,3 +3,4 @@ export function runOnDispose(fn: () => void) {
     [Symbol.dispose]: fn,
   };
 }
+

@@ -33,3 +33,4 @@ export const modelInstanceInfoSchema = z.discriminatedUnion("type", [
   llmInstanceInfoSchema as any,
   embeddingModelInstanceInfoSchema as any,
 ]) as z.ZodSchema<ModelInstanceInfo>;
+

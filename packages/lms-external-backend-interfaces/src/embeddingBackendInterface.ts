@@ -49,3 +49,4 @@ export function createEmbeddingBackendInterface() {
 
 export type EmbeddingPort = InferClientPort<typeof createEmbeddingBackendInterface>;
 export type EmbeddingBackendInterface = ReturnType<typeof createEmbeddingBackendInterface>;
+

@@ -30,3 +30,4 @@ export class CancelEvent extends Subscribable<void> {
     }
   }
 }
+

@@ -17,3 +17,4 @@ export const modelDownloadSourceSchema: ZodSchema<ModelDownloadSource> = z.discr
   "type",
   [huggingFaceModelDownloadSourceSchema],
 );
+

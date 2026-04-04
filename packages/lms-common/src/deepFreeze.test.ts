@@ -38,3 +38,4 @@ describe("deepFreeze", () => {
     expect(Object.isFrozen(result[1])).toBe(true);
   });
 });
+

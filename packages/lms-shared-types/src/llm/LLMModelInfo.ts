@@ -72,3 +72,4 @@ export const llmInstanceInfoSchema = z
   .extend(modelInstanceInfoBaseSchema.shape)
   .extend(llmAdditionalInfoSchema.shape)
   .extend(llmInstanceAdditionalInfoSchema.shape) as ZodSchema<LLMInstanceInfo>;
+

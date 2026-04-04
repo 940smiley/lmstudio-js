@@ -29,3 +29,4 @@ export function makePrettyError(content: string, stack?: string): Error {
     return error;
   }
 }
+

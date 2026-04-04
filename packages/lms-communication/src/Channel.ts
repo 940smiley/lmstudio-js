@@ -138,3 +138,4 @@ export class Channel<TIncomingPacket, TOutgoingPacket> {
     return promise;
   }
 }
+

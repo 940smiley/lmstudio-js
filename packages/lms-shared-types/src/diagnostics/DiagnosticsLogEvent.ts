@@ -29,3 +29,4 @@ export type DiagnosticsLogEvent = {
   timestamp: number;
   data: DiagnosticsLogEventData;
 };
+

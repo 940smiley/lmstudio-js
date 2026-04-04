@@ -213,3 +213,4 @@ function compile(readonlyStrings: TemplateStringsArray): Array<string> {
   const paragraphs = mergeLines(lines);
   return addHolesForVariables(mergeParagraphs(paragraphs));
 }
+

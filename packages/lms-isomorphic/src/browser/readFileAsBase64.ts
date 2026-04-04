@@ -9,3 +9,4 @@ export async function readFileAsBase64(_path: string): Promise<
 > {
   return { success: false };
 }
+

@@ -45,3 +45,4 @@ export class IpcServerTransport extends ServerTransport {
     this.electronPort!.postMessage(message);
   }
 }
+

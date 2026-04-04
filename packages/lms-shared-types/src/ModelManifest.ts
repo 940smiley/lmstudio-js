@@ -11,3 +11,4 @@ export const modelManifestSchema = z.object({
   type: z.literal("model"),
   ...artifactManifestBaseSchema.shape,
 });
+

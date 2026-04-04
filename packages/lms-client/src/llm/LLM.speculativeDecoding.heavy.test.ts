@@ -75,3 +75,4 @@ describe("LLM + speculative decoding", () => {
     }).rejects.toThrow('Cannot find model "invalid-model"');
   });
 });
+

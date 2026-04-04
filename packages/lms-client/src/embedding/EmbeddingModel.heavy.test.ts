@@ -65,3 +65,4 @@ describe("EmbeddingModel", () => {
     expect(model.sizeBytes).toMatchInlineSnapshot(`84106624`);
   });
 });
+

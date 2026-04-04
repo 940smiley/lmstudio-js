@@ -83,3 +83,4 @@ export interface ConfigSchematicsBuilder<TVirtualConfigSchematics extends Virtua
 export function createConfigSchematics(): ConfigSchematicsBuilder<{}> {
   return new KVConfigSchematicsBuilder(kvValueTypesLibrary) as ConfigSchematicsBuilder<{}>;
 }
+

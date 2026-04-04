@@ -14,3 +14,4 @@ export const retrievalChunkSchema = z.object({
   score: z.number(),
   citation: citationSourceSchema,
 });
+

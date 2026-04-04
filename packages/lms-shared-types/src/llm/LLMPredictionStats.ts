@@ -169,3 +169,4 @@ export interface LLMGenInfo {
   predictionConfig: KVConfig;
   stats: LLMPredictionStats;
 }
+

@@ -13,3 +13,4 @@ export function makePromise<TData>(): DeferredPromise<TData> {
   });
   return { promise, resolve: resolve!, reject: reject! };
 }
+

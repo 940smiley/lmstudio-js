@@ -7,3 +7,4 @@ export const authPacketSchema = z.object({
 });
 
 export type AuthPacket = z.infer<typeof authPacketSchema>;
+

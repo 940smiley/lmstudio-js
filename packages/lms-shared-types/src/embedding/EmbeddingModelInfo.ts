@@ -67,3 +67,4 @@ export const embeddingModelInstanceInfoSchema = z
   .extend(
     embeddingModelInstanceAdditionalInfoSchema.shape,
   ) as z.ZodSchema<EmbeddingModelInstanceInfo>;
+

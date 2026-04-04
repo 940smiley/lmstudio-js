@@ -627,3 +627,4 @@ export abstract class ModelNamespace<
     return await promise;
   }
 }
+

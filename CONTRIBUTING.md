@@ -1,6 +1,6 @@
 # Contributing to Our Open Source Projects
 
-First off, thank you for considering contributing to our open source projects! 👾❤️ 
+First off, thank you for considering contributing to our open source projects! 👾❤️
 
 ## Communication
 

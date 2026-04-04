@@ -28,3 +28,4 @@ export function parseFileIdentifier(fileIdentifier: string): ParsedFileIdentifie
     }
   }
 }
+

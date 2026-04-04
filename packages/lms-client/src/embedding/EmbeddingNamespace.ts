@@ -62,3 +62,4 @@ export class EmbeddingNamespace extends ModelNamespace<
     return new EmbeddingDynamicHandle(port, specifier, validator, logger);
   }
 }
+

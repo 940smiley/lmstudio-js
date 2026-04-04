@@ -57,3 +57,4 @@ export const generatorUpdateSchema = z.discriminatedUnion("type", [
   processingUpdateContentBlockSetStyleSchema,
   processingUpdateSetSenderNameSchema,
 ]) as z.Schema<GeneratorUpdate>;
+

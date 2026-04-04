@@ -245,3 +245,4 @@ export function friendlyErrorDeserializer(
     return deserializeOtherError(serialized, stack);
   }
 }
+

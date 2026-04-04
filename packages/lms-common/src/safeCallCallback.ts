@@ -24,3 +24,4 @@ export function safeCallCallback<TArgs extends Array<unknown>>(
     logger.error(`Error in the ${name} callback:`, error);
   }
 }
+

@@ -29,3 +29,4 @@ export class SimpleFileData<TData> extends FileData<TData> {
     );
   }
 }
+

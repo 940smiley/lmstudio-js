@@ -78,3 +78,4 @@ export const artifactManifestBaseSchema = z.object({
   dependencies: z.array(artifactDependencySchema).optional(),
   tags: z.array(z.string()).optional(),
 });
+

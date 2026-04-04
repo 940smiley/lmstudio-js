@@ -4,3 +4,4 @@ export function generateRandomBase64(bytesOfRandomness = 18) {
   // Using btoa here is safe because the input is not string anyways.
   return btoa(String.fromCharCode(...randomBytes));
 }
+

@@ -521,3 +521,4 @@ export type GlobalConfigSchemaTypeForKey<TKey extends GlobalConfigSchemaKeys> =
  */
 export type GlobalConfigSchemaValueTypeKeyForKey<TKey extends GlobalConfigSchemaKeys> =
   GlobalConfigSchemaMap[TKey]["valueTypeKey"];
+

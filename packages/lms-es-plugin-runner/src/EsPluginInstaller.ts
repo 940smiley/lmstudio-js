@@ -63,3 +63,4 @@ export class EsPluginInstaller {
     await esbuild.exec(args);
   }
 }
+

@@ -18,3 +18,4 @@ export const modelCompatibilityTypeSchema = z.enum([
   "mlx_placeholder",
   "torch_safetensors",
 ]);
+

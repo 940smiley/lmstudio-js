@@ -222,3 +222,4 @@ export class FileData<TData> {
     this.writeData(this.innerSignal.get());
   });
 }
+

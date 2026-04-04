@@ -11,3 +11,4 @@ export const wsAuthenticationResultSchema = z.discriminatedUnion("success", [
 ]);
 
 export type WsAuthenticationResult = z.infer<typeof wsAuthenticationResultSchema>;
+

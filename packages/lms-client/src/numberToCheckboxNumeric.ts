@@ -18,3 +18,4 @@ export function numberToCheckboxNumeric(
   }
   return { checked: true, value };
 }
+
